@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="_array"/>
+	<classpathentry kind="src" path="_method"/>
+	<classpathentry kind="src" path="_Object/src"/>
+	<classpathentry kind="src" path="_StandardClassDemo/src"/>
+	<classpathentry kind="src" path="day12/src"/>
+	<classpathentry kind="src" path="day13_Integer/src"/>
+	<classpathentry kind="src" path="day13_StringBuffer/src"/>
+	<classpathentry kind="src" path="Day14_Regex/src"/>
+	<classpathentry kind="src" path="day15_List/src"/>
+	<classpathentry kind="src" path="day15/src"/>
+	<classpathentry kind="src" path="day16_Generic/src"/>
+	<classpathentry kind="src" path="day16_jdknewfeature/src"/>
+	<classpathentry kind="src" path="day16_List_Son_Test/src"/>
+	<classpathentry kind="src" path="day16_List_Son/src"/>
+	<classpathentry kind="src" path="day17_login_regist/src"/>
+	<classpathentry kind="src" path="day17_Set_son/src"/>
+	<classpathentry kind="src" path="day26_Net/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="Day14_Regex/bin"/>
+</classpath>
