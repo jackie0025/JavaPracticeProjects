@@ -24,10 +24,38 @@ public class Student {
 	public void setAge(int age) {
 		this.age = age;
 	}
+//	
+//	@Override
+//	public int hashCode() {
+//		// TODO Auto-generated method stub
+//		//return super.hashCode();
+//		
+//		//return this.name.hashCode()+this.age;
+//		//if	this.name.hashCode()=40,age=30
+//		//		this.name.hashCode()=20,age=50
+//		//so
+//		
+//		return this.name.hashCode()+this.age*31;
+//	}
+//	@Override
+//	public boolean equals(Object obj) {
+//		// TODO Auto-generated method stub
+//		//return super.equals(obj);
+//		if (this==obj) {
+//			return true;
+//		}
+//		if (!(obj instanceof Student)) {
+//			return false;
+//		}
+//		Student student=(Student) obj;
+//		return this.name.equals(student.name) && this.age==student.age;
+//		
+//	}
 	/**
 	 * 重写hashCode
 	 * 因为hashSet.add方法，需要计算哈希值，(这里add是引用对象，必须重写)
 	 */
+
 	@Override	
 	public int hashCode() {
 		final int prime = 31;
@@ -54,7 +82,5 @@ public class Student {
 			return false;
 		return true;
 	}
-	
-	
 
 }
