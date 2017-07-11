@@ -9,10 +9,13 @@ public class MyThreadDemo {
 		// myThread.run();
 		// java.lang.IllegalThreadStateException
 		//myThread被调用了两次
-		MyThread myThread2=new MyThread();
-		
+		MyThread myThread2=new MyThread("线程2");
+		myThread.setName("线程1");
+		//myThread2.setName("线程2");
 		myThread.start();
 		myThread2.start();
+		
+		System.out.println(Thread.currentThread().getName());
 	}
 
 }
