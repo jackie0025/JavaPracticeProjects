@@ -12,7 +12,7 @@ public class FileDemo {
 		System.out.println("mkdir: "+flag);
 		
 		//create a txt file
-		File file2=new File(file,"a.txt");
+		File file2=new File(file,"my.txt");
 		try {
 			flag=file2.createNewFile();
 			System.out.println("createNewFile: "+flag);
