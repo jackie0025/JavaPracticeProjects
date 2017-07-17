@@ -17,7 +17,7 @@ public class FileDemo {
 			flag=file2.createNewFile();
 			System.out.println("createNewFile: "+flag);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 	}
