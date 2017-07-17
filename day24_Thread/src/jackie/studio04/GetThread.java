@@ -11,8 +11,13 @@ public class GetThread implements Runnable {
 	@Override
 	public void run() {
 		// TODO Auto-generated method stub
-		//Student student=new Student();
-		System.out.println(student.name+","+student.age);
+		// Student student=new Student();
+		while (true) {
+			synchronized (student) {
+				System.out.println(student.name + "," + student.age);
+			}
+			
+		}
 	}
 
 }
